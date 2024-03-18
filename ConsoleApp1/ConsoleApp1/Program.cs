@@ -5,15 +5,15 @@ Console.WriteLine("Modification 1");
 Console.WriteLine("Modification 2");
 Console.WriteLine("Modification 3");
 
-static double GetAverage(int[] numbers)
+static double GetAverage(int[] numery)
 {
     double sum = 0;
-    for (int i = 0; i < numbers.Length; i++)
+    for (int i = 0; i < numery.Length; i++)
     {
-        sum += numbers[i];
+        sum += numery[i];
     }
 
-    return sum / numbers.Length;
+    return sum / numery.Length;
 }
 
 int[] arr = {1, 2, 3, 4};
