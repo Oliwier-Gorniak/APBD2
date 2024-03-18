@@ -7,13 +7,13 @@ Console.WriteLine("Modification 3");
 
 static double GetAverage(int[] numery)
 {
-    double sum = 0;
+    double suma = 0;
     for (int i = 0; i < numery.Length; i++)
     {
-        sum += numery[i];
+        suma += numery[i];
     }
 
-    return sum / numery.Length;
+    return suma / numery.Length;
 }
 
 int[] arr = {1, 2, 3, 4};
@@ -31,6 +31,6 @@ static int GetMax(int[]numbers)
     
     return max;
 }
-int[] numbers = { 1, 2, 3, 4, 5, 6 };
-int max = GetMax(numbers);
+int[] numery = { 1, 2, 3, 4, 5, 6 };
+int max = GetMax(numery);
 Console.WriteLine(max);
